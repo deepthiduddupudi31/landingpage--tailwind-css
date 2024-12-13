@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tailwind Project</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            clifford: '#da373d',
+          }
+        }
+      }
+    }
+  </script>
+    <link href="./output.css" rel="stylesheet">
+   
+</head>
+<body class="bg-black">
+  <nav class="text-white h-32 w-356  flex justify-around items-center p-9">
+    <img src="donut.jpg" class="h-12 w-12 m-2 bg-black">
+    <a href="#">About</a>
+    <a href="#">Blog</a>
+    <a href="#">Testinomails</a>
+    <a href="#">Resources</a>
+    <div class="ml-24">
+
+        <i class="fa-solid fa-toggle-on p-16 font-black  viewBox=0 0 24 2"></i>
+      
+      
+      <button class="text-white p-3 m-3 bg-blue-600 rounded-lg">Request code</button>
+    </div>
+ </nav>
+ <div class="h-screen w-screen flex mt-4">
+  <div class="h-screen w-2/3"> 
+    <h1 class="text-6xl text-white font-semibold p-16 m-3">Your website ,reimagined</h1>
+    <p class="text-center text-white min-w-80 mr-6 text-2xl font-thin">our landing page template works on all devices,so you only have to set it up once,and get beautiful results forever</p>
+    <form>
+      <input type="text" placeholder="phonenumber" class="mt-24 ml-48 p-4 w-64 border-spacing-13 border-white-100 rounded-lg"/>
+      <button class="text-white p-3 m-3 bg-blue-600 rounded-lg">Request code</button>
+    </form>
+  </div>
+
+   <div class="h-screen w-1/3 mt-20">
+    <img class="h-72" src="girl.jpg">
+   </div>
+ </div>
+ 
+    
+</body>
+</html>
